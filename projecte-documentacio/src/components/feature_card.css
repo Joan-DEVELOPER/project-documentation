@@ -1,0 +1,30 @@
+.flashcard {
+  width: 35%;
+  justify-self: center;
+  gap: 0px;
+  margin: 15px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #0289a7;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.title h2 {
+  text-transform: capitalize;
+  padding-left: 15px;
+}
+
+.content {
+  background-color: rgb(251, 253, 255);
+  margin: 0;
+  padding: 5px;
+  border-bottom: 2px solid;
+  border-left: 2px solid;
+  border-right: 2px solid;
+  border-radius: 0px 0px 10px 10px;
+}
